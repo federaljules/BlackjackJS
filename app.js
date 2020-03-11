@@ -206,7 +206,7 @@ function teeKortti(maa, num, kuva, pj, tausta) {
    
     if(maa =="Hertta"){
         
-        kortti_kuva.setAttribute("src", "/img/hertta.png");
+        kortti_kuva.setAttribute("src", "img/hertta.png");
 
         kortti1_luku.innerHTML = num;
         kortti_JQK.innerHTML = kuva;
@@ -214,20 +214,20 @@ function teeKortti(maa, num, kuva, pj, tausta) {
 
     else if(maa =="Risti"){
     
-        kortti_kuva.setAttribute("src", "/img/risti.png");
+        kortti_kuva.setAttribute("src", "img/risti.png");
         kortti1_luku.innerHTML = num;
         kortti_JQK.innerHTML = kuva;
         
     }
     else if(maa =="Pata"){
 
-        kortti_kuva.setAttribute("src", "/img/pata.png");
+        kortti_kuva.setAttribute("src", "img/pata.png");
         kortti1_luku.innerHTML = num;
         kortti_JQK.innerHTML = kuva;
     }
     else if(maa == "Ruutu"){
 
-        kortti_kuva.setAttribute("src", "/img/timantti.png");
+        kortti_kuva.setAttribute("src", "img/timantti.png");
         kortti1_luku.innerHTML = num;
         kortti_JQK.innerHTML = kuva;
     }
@@ -235,7 +235,7 @@ function teeKortti(maa, num, kuva, pj, tausta) {
 }else{
     if(maa =="Hertta"){
         
-        kortti_kuva.setAttribute("src", "/img/hertta.png");
+        kortti_kuva.setAttribute("src", "img/hertta.png");
 
         kortti1_luku.innerHTML = num;
         kortti_JQK.innerHTML = kuva;
@@ -243,20 +243,20 @@ function teeKortti(maa, num, kuva, pj, tausta) {
 
     else if(maa =="Risti"){
     
-        kortti_kuva.setAttribute("src", "/img/risti.png");
+        kortti_kuva.setAttribute("src", "img/risti.png");
         kortti1_luku.innerHTML = num;
         kortti_JQK.innerHTML = kuva;
         
     }
     else if(maa =="Pata"){
 
-        kortti_kuva.setAttribute("src", "/img/pata.png");
+        kortti_kuva.setAttribute("src", "img/pata.png");
         kortti1_luku.innerHTML = num;
         kortti_JQK.innerHTML = kuva;
     }
     else if(maa == "Ruutu"){
 
-        kortti_kuva.setAttribute("src", "/img/timantti.png");
+        kortti_kuva.setAttribute("src", "img/timantti.png");
         kortti1_luku.innerHTML = num;
         kortti_JQK.innerHTML = kuva;
     }
